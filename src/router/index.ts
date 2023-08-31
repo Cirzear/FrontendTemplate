@@ -3,7 +3,7 @@ import { createRouter, createWebHistory, RouterOptions, Router, RouteRecordRaw }
 //RouterRecordRaw是路由组件对象
 const routes: RouteRecordRaw[] = [
   { path: '/', name: 'Home', component: () => import('@/views/index/index.vue') },
-  { path: '/login', name: 'Login', component: () => import('@/views/index/login.vue') }
+  { path: '/login', name: 'Login', component: () => import('@/views/login/index.vue') }
 ]
 
 // RouterOptions是路由选项类型
