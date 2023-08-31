@@ -1,0 +1,40 @@
+{
+  "ignoreFiles": [
+    "node_modules/**/*",
+    "**/temp/**/*",
+    "**/*.ts",
+    ".eslintrc.cjs",
+    "**/*.md",
+    "**/*.yaml"
+  ],
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-standard-vue",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "no-duplicate-selectors": null,
+    "no-missing-end-of-source-newline": null,
+    "max-line-length": null,
+    "color-function-notation": "legacy",
+    "alpha-value-notation": "number",
+    "media-feature-name-no-vendor-prefix": null,
+    "import-notation": null
+  },
+  "customSyntax": "postcss-html",
+  "overrides": [
+    {
+      "files": [
+        "src/**/*.vue"
+      ],
+      "rules": {}
+    },
+    {
+      "files": [
+        "src/**/*.less"
+      ],
+      "rules": {}
+    }
+  ]
+}
