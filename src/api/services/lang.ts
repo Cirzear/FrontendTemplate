@@ -1,11 +1,11 @@
 /**
  * 国际化/语言相关接口
  */
-import { AxiosResponse } from 'axios'
-import axios from '../axios'
-import config from '@/config/index'
+import { AxiosResponse } from 'axios';
+import axios from '../axios';
+import config from '@/config/index';
 
-const baseURL = config.langApiURL
+const baseURL = config.langApiURL;
 
 export default {
   /**
@@ -14,4 +14,4 @@ export default {
    */
   getLangs: (config: object): Promise<AxiosResponse<object | string>> =>
     axios.get('/language', { baseURL, ...config })
-}
+};

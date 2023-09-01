@@ -54,4 +54,4 @@ export default {
     'type-empty': [2, 'never'], // type 不为空
     'subject-case': [0, 'never']
   }
-}
+};

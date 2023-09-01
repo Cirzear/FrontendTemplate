@@ -1,5 +1,5 @@
-import lang from './lang'
+import lang from './lang';
 
 export default {
   lang
-}
+};

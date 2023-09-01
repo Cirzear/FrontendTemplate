@@ -1,14 +1,14 @@
-import App from './App.vue'
-import router from '@/router'
-import { createPinia } from 'pinia'
-import { createApp } from 'vue'
+import App from './App.vue';
+import router from '@/router';
+import { createPinia } from 'pinia';
+import { createApp } from 'vue';
 
-import '@/assets/style/index.less'
+import '@/assets/style/index.less';
 
-const store = createPinia()
+const store = createPinia();
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(store)
-app.use(router)
-app.mount('#app')
+app.use(store);
+app.use(router);
+app.mount('#app');
