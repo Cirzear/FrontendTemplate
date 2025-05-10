@@ -2,12 +2,12 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 import vue from '@vitejs/plugin-vue';
 
-// const APP_NAME = 'ELECTRIC_FACTORY_WEB'
+// const APP_NAME = 'FRONT_TEMPLATE_WEB'
 const ENV_PREFIX = 'APP_';
 const isProductionEnv = process.env.NODE_ENV === 'production';
 const serviceOrigin = 'http://dev.sm.fet.bonc.test';
 const port = 9304;
-const publicPath = isProductionEnv ? '/electric-factory-web' : '/';
+const publicPath = isProductionEnv ? '/frontend-template-web' : '/';
 
 // https://vitejs.dev/config/
 export default defineConfig({
